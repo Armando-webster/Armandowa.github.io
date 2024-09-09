@@ -1,0 +1,13 @@
+/* Estilos personalizados */
+
+body {
+    padding-top: 56px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}

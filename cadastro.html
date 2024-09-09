@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop - Cadastro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Cabeçalho -->
+<header class="bg-primary text-white text-center py-3">
+    <div class="container">
+        <h1>PetShop</h1>
+        <nav>
+            <a href="index.html" class="class_botao btn btn-primary border">Início</a> |
+            <a href="produtos.html" class="class_botao btn btn-primary border">Produtos</a> |
+            <a href="serviços.html" class="class_botao btn btn-primary border">Serviços</a> |
+            <a href="cadastro.html" class="class_botao btn btn-primary border">Cadastro</a> |
+            <a href="agendamento.html" class="class_botao btn btn-primary border">Agendamento</a>
+        </nav>
+    </div>
+</header>
+
+<!-- Formulário de Cadastro -->
+<div class="container my-4">
+    <h2>Cadastro</h2>
+    <form>
+        <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" class="form-control" id="nome" required>
+        </div>
+        <div class="form-group">
+            <label for="endereco">Endereço</label>
+            <input type="text" class="form-control" id="endereco" required>
+        </div>
+        <div class="form-group">
+            <label for="telefone">Telefone</label>
+            <input type="tel" class="form-control" id="telefone" required>
+        </div>
+        <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <h4>Cadastro do Pet</h4>
+        <div class="form-group">
+            <label for="nomePet">Nome do Pet</label>
+            <input type="text" class="form-control" id="nomePet" required>
+        </div>
+        <div class="form-group">
+            <label for="tipoPet">Tamanho</label>
+            <input type="text" class="form-control" id="tipoPet" required>
+        </div>
+        <div class="form-group">
+            <label for="racaPet">Raça</label>
+            <input type="text" class="form-control" id="racaPet" required>
+        </div>
+        <div class="form-group">
+            <label>Temperamento</label><br>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="calmo" name="temperamento" value="calmo">
+                <label class="form-check-label" for="calmo">Calmo</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="agitado" name="temperamento" value="agitado">
+                <label class="form-check-label" for="agitado">Agitado</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="bravo" name="temperamento" value="bravo">
+                <label class="form-check-label" for="bravo">Bravo</label>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
+    </form>
+</div>
+
+<!-- Rodapé -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 PetShop. Todos os direitos reservados.</p>
+    <a href="index.html" class="text-white">Início</a> |
+    <a href="produtos.html" class="text-white">Produtos</a> |
+    <a href="serviços.html" class="text-white">Serviços</a> |
+    <a href="cadastro.html" class="text-white">Cadastro</a> |
+    <a href="agendamento.html" class="text-white">Agendamento</a>
+    <p>Contato: contato@petshop.com.br</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop - Início</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        h1{
+            font: bold ;
+            font-size: 30;
+        }
+        header{
+            font-size: 20px;
+        }
+        .img_logo{
+            border: 150px;
+            height: 400px;
+        }
+        .carousel-control-next, .carousel-control-prev {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Cabeçalho -->
+<header class="bg-primary text-white text-center py-3">
+    <div class="container">
+        <h1>PetShop</h1>
+        <nav>
+            <a href="index.html" class="class_botao btn btn-primary border">Início</a> |
+            <a href="produtos.html" class="class_botao btn btn-primary border">Produtos</a> |
+            <a href="serviços.html" class="class_botao btn btn-primary border">Serviços</a> |
+            <a href="cadastro.html" class="class_botao btn btn-primary border">Cadastro</a> |
+            <a href="agendamento.html" class="class_botao btn btn-primary border">Agendamento</a>
+        </nav>
+    </div>
+</header>
+
+<!-- Carrossel de Imagens -->
+<div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <center>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/Foto de entrada.jpg.webp" class="img_logo" alt="Produto 1">
+        </div>
+        <div class="carousel-item">
+            <a href="serviços.html" ><img src="images/serviço2.jpg"  alt="Produto 2" ></a>
+        </div>
+        <div class="carousel-item">
+            <a href="serviços.html"><img src="images/serviço1.jpg"  alt="Serviço 1"></a>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+    </a>
+</div>
+</center>
+
+<!-- Rodapé -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 PetShop. Todos os direitos reservados.</p>
+    <a href="index.html" class="text-white">Início</a> |
+    <a href="produtos.html" class="text-white">Produtos</a> |
+    <a href="serviços.html" class="text-white">Serviços</a> |
+    <a href="cadastro.html" class="text-white">Cadastro</a> |
+    <a href="agendamento.html" class="text-white">Agendamento</a>
+    <p>Contato: contato@petshop.com.br</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
