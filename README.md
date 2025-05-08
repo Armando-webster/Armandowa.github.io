@@ -1,2 +1,5 @@
-Meu primeiro trabalho fazendo um esboço inicial de um site usando HTML5 
+
+ABOUT
+Apenas uma demonstração do uso de HTML5 
+LINK
 https://armando-webster.github.io/Armandowa.github.io/
